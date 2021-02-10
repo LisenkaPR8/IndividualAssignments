@@ -1,0 +1,63 @@
+ * { margin: 0; padding: 0; border: 0; font-size: 100%; }
+
+@font-face {
+	font-family: 'Source Sans Pro', sans-serif;
+	src: url('../font/Source_Sans_Pro.ttf') format('Truetype');
+}
+@font-face {
+	font-family: 'cormantGaramond_regular';
+	src: url('../font/Cormorant_Garamond/CormorantGaramond-Regular.ttf') format('Truetype');
+} 
+    
+.navbar-style
+{
+    box-shadow: 0 5px 10px #efefef;
+}
+.logo
+{
+    height:15pxx;
+    width: 250px;
+    padding: 2px 10px;
+}
+li a
+{
+    color:#333;
+}
+
+body{
+    background-image:url(../img/background.jpg);
+    background-size:cover;
+}
+
+.text{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.bigtext{
+    font-size: 42px;
+    color: white;
+}
+p {
+    font-size: 18px;
+    color: lightgray;
+    
+}
+.banner-info, .banner-image
+{
+    margin-top: 80px;
+}
+.text-center m-5{
+    color: white;
+}
+h1 {
+    font-family: 'Source Sans Pro';
+    font-size: 50px;
+    color: black;
+    padding-bottom: 30px;
+}
+
+.card-text{
+    color: black;
+    font-size: 17px;
+}
