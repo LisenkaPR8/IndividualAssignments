@@ -39,9 +39,10 @@ body{
     color: white;
 }
 
-h3{
-	font-size: 35px;
-	color: light-gray;
+h3 {
+    font-size: 30px;
+    color: lightgray;
+    padding-bottom: 20px;
 }
 
 p {
