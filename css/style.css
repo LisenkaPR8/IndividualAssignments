@@ -1,17 +1,13 @@
  * { margin: 0; padding: 0; border: 0; font-size: 100%; }
 
-@font-face {
-	font-family: 'Source Sans Pro', sans-serif;
-	src: url('../font/Source_Sans_Pro.ttf') format('Truetype');
-}
-@font-face {
-	font-family: 'cormantGaramond_regular';
-	src: url('../font/Cormorant_Garamond/CormorantGaramond-Regular.ttf') format('Truetype');
-} 
     
-.navbar-style
-{
+.navbar-style{
     box-shadow: 0 5px 10px #efefef;
+}
+
+.navitem{
+    font-family: 'Newsreader', serif;
+    font-size: 18px;
 }
 .logo
 {
@@ -40,13 +36,14 @@ body{
 }
 
 h3 {
+    font-family: 'Crimson Text', serif;
     font-size: 30px;
     color: lightgray;
     padding-bottom: 20px;
 }
-
 p {
-    font-size: 18px;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
     color: lightgray;
     
 }
@@ -58,13 +55,35 @@ p {
     color: white;
 }
 h1 {
-    font-family: 'Source Sans Pro';
+    font-family: 'Newsreader', serif; 
     font-size: 50px;
     color: black;
     padding-bottom: 30px;
 }
 
+.card-title{
+    font-family: 'Crimson Text', serif;
+    font-size: 24px;
+}
+
 .card-text{
-    color: black;
+    font-family: 'Crimson Text', serif;
     font-size: 17px;
+    color: black;
+}
+
+footer{
+    background: white;
+}
+
+.Tel{
+    font-family: 'Crimson Text', serif;
+    font-size: 17px;
+    color: black;
+}
+
+.Mail {
+    font-family: 'Crimson Text', serif;
+    font-size: 17px;
+    color: black;
 }
